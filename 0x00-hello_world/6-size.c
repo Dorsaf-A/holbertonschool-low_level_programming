@@ -6,8 +6,8 @@
 int main(void) 
 {
 int intType;
-long int floatType;
-long long int doubleType;
+long floatType;
+double doubleType;
 char charType;
 float ftype;
 printf("Size of int: %ld bytes", sizeof(intType));
