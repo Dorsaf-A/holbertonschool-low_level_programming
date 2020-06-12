@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 int n, i;
 
@@ -14,17 +14,15 @@ for (n = '0'; n <= '9'; n++)
 {
 for (i = '0'; i <= '9' ; i++)
 {
-if (i != '0' )
-/*{
-*  if (i != '9')
-*/ {
+if (i != '0' || n != '0')
+{
 putchar(',');
 putchar(' ');
 }
 putchar(n);
 putchar(i);
 }
-	}
+}
 putchar('\n');
 return (0);
 }
