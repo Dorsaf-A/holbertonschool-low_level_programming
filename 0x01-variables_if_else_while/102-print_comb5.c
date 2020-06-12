@@ -14,9 +14,9 @@ for (i = '0'; i <= '9' ; i++)
 {
 for (j = '0'; j <= '8' ; j++)
 {
-for (c = '0'; c <= '9' ; c++)
+for (c = i; c <= '9' ; c++)
 {
-for (k = '1'; k <= '9'; k++)
+for (k = j+1; k <= '9'; k++)
 {
 putchar(i);
 putchar(j);
