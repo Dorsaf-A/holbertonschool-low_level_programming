@@ -16,7 +16,7 @@ for (j = '0'; j <= '9' ; j++)
 {
 for (c = i; c <= '9' ; c++)
 {
-for ((i == j) ? (k = j + 1) : (k=0); k <= '9'; k++)
+for ((i == j) ? (k = j + 1) : (k = '0'); k <= '9'; k++)
 {
 putchar(i);
 putchar(j);
