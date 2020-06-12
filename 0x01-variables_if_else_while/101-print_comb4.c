@@ -12,14 +12,14 @@
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = i+1; j <= '9'; j++)
+		for (j = i + 1; j <= '9'; j++)
 		{
 			for (c = j + 1; c <= '9'; c++)
 			{
 				putchar(i);
 				putchar(j);
 				putchar(c);
-				if (i == '7' && j == '8' && c =='9')
+				if (i == '7' && j == '8' && c == '9')
 				{
 				}
 				else

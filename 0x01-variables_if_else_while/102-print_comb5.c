@@ -8,22 +8,22 @@
  */
 int main(void)
 {
-	int i, j, c ,k;
+	int i, j, c, k;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = '0'; i <= '9' ; i++)
 	{
-		for (j = '0'; j <= '8'; j++)
+		for (j = '0'; j <= '8' ; j++)
 		{
-			for (c = '0'; c <= '9'; c++)
+			for (c = '0'; c <= '9' ; c++)
 			{
-				for(k = '0' ; k <= '9'; k++)
+				for (k = '0'; k <= '9'; k++)
 				{
 					putchar(i);
 					putchar(j);
 					putchar(' ');
 					putchar(c);
 					putchar(k);
-					if (i == '9' && j == '8' && c =='9' && k == '9')
+					if (i == '9' && j == '8' && c == '9' && k == '9')
 					{
 					}
 					else
