@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _islower - 
+ * _islower -
  *
  * Return: Always 0.
  */
