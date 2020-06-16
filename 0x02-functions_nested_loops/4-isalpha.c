@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * _isalpha - check the code for Holberton School students.
  * @c: int
