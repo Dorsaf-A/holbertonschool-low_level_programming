@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * times_table - multiplication table
- *
- *
+ * add - addition
+ * @a: integer
+ * @b: integer
  */
 int add(int a, int b)
 {
