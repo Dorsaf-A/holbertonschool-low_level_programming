@@ -13,5 +13,5 @@ i = (n % 10) + '0';
 if (i >= 0)
 return (i);
 else if
-return (i);
+return ((-1) * i);
 }
