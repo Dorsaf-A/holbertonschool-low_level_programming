@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * add - check the code for Holberton School students.
+ * times_table - multiplication table
  *
  *
  */
