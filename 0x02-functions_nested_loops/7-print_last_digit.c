@@ -2,7 +2,6 @@
 
 /**
  * print_last_digit - check the code for Holberton School students.
- * _abs - absolute value
  * @n: int
  * Return: 1 or 0 or -1
  */
@@ -12,8 +11,13 @@ int i;
 
 i = (n % 10);
 if (i < 0)
+{
 _putchar((i * (-1)) + '0');
-else if
+return (i * (-1));
+}
+else
+{
 _putchar(i + '0');
-  return (0);
+return (i);
+}
 }
