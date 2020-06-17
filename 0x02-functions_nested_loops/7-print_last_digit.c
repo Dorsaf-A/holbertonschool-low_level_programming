@@ -10,8 +10,8 @@ int print_last_digit(int n)
 int i;
 
 i = (n % 10);
-if (i >= 0)
-return (i);
+if (i < 0)
+_putchar((i * (-1)) + '0');
 else if
-return ((-1) * i);
+return (i);
 }
