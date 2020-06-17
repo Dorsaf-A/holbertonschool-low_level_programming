@@ -6,15 +6,13 @@
  * @n: int
  * Return: 1 or 0 or -1
  */
-int _abs(int n)
-{
-	if (n >= 0)
-		return (n);
-	return (-n);
-}
 int print_last_digit(int n)
 {
-	n = _abs(n);
-	_putchar((n % 10) + '0');
-	return (n % 10);
+	int i;
+
+	i = (n % 10) + '0';
+	if (i >= 0)
+	return (i);
+	else if
+	return ((-1) * i);
 }
