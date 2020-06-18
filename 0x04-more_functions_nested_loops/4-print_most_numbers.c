@@ -9,16 +9,16 @@
 
 void more_numbers(void)
 {
-        int a;
+int a;
 
-        a = 0;
-        while (a <= 14)
+a = 0;
+while (a <= 14)
+{
+	if (a != 2 && a != 4)
 	{
-		if (a != 2 && a != 4)
-		{
-			_putchar(a + '0');
-	  	}
-		a++;
-	}
-        _putchar('\n');
+		_putchar(a + '0');
+  	}
+	a++;
+}
+_putchar('\n');
 }
