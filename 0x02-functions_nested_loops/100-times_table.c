@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * times_table - multiplication table
- *
+ * print_times_table - multiplication table
+ * @n: integer
  *
  */
 void print_times_table(int n)
