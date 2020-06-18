@@ -2,7 +2,6 @@
 
 /**
  * more_numbers - print digit except 2 and 4
- * 
  */
 
 void more_numbers(void)
