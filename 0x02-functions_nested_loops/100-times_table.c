@@ -21,24 +21,24 @@ for (i = 0; i <= n; i++)
 		_putchar(' ');
 		}
 		if (a > 99)
-    {
+    		{
 			_putchar(a / 100 + 48);
 			_putchar((a / 10) % 10 + 48);
-      _putchar(a % 10 + 48);
+     			_putchar(a % 10 + 48);
 		}
-    else if (a > 9)
-    {
-      _putchar(' ');
-      _putchar(a / 10 + 48);
-      _putchar(a % 10 + 48);
-    }
+    		else if (a > 9)
+    		{
+    		_putchar(' ');
+      		_putchar(a / 10 + 48);
+      		_putchar(a % 10 + 48);
+    		}
 		else if (j == 0)
 		{
 			_putchar(a + 48);
 		}
 		else
 		{
-      _putchar(' ');
+      			_putchar(' ');
 			_putchar(' ');
 			_putchar(a + 48);
 		}
