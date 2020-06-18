@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
- * more_numbers - print digit except 2 and 4
+ * print_most_numbers - print digit except 2 and 4
  *
  *
  *
  */
 
-void more_numbers(void)
+void print_most_numbers(void)
 {
 int a;
 
