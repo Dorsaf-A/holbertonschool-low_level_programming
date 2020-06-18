@@ -4,7 +4,7 @@
  * mul - multiplication table
  * @a: integer
  * @b: integer
- *
+ * Return: a * b
  */
 int mul(int a, int b)
 {
