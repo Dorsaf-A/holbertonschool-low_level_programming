@@ -1,7 +1,7 @@
 /**
  * _strlen - length of string
  * @s: char pointer
- *
+ * Return: length
  */
 int _strlen(char *s)
 {
