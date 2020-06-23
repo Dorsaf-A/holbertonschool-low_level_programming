@@ -2,7 +2,6 @@
 /**
  * _puts - puts
  * @str: char pointer
- *
  */
 
 void _puts(char *str)
