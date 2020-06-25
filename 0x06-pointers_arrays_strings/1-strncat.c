@@ -1,3 +1,9 @@
+/**
+* _strncat - concat n char
+* @dest: char pointer
+* @src: char pointer
+* @n: integer
+*/
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
